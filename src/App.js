@@ -43,7 +43,7 @@ const App = () => {
           <Popup {...state} dispatch={dispatch} closePopup={closePopup}></Popup>
         )}
         <header>
-          <label htmlFor="input">color generate</label>
+          <label htmlFor="input">color generator</label>
           <form className="form" onSubmit={formSubmit}>
             <div className="form-control">
               <input
