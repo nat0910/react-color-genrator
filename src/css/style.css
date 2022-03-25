@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #dee1ec;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2em 0;
+  padding: 2% 6.5%;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 0 4em;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+header label {
+  font-weight: 500;
+  font-size: 2em;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 2em;
+}
+
+.form .form-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.form .form-control input {
+  font-size: 1.1em;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5em 1.5em;
+  -webkit-box-shadow: 0 0 10px #adadad;
+          box-shadow: 0 0 10px #adadad;
+  font-weight: 500;
+  width: 10em;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+}
+
+.form button {
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding: 0.4em 1.5em;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background-color: #4da6a6;
+  color: white;
+}
+
+.form button:hover {
+  background-color: #008080;
+  color: white;
+  border: none;
+}
+
+main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em 0.59em;
+  overflow: visible;
+}
+
+input::-webkit-input-placeholder {
+  color: #838383;
+  letter-spacing: 3px;
+}
+
+input:-ms-input-placeholder {
+  color: #838383;
+  letter-spacing: 3px;
+}
+
+input::-ms-input-placeholder {
+  color: #838383;
+  letter-spacing: 3px;
+}
+
+input::placeholder {
+  color: #838383;
+  letter-spacing: 3px;
+}
+
+.card {
+  width: 12%;
+  height: 15em;
+  border-radius: 0.5rem;
+}
+
+.card .card-content {
+  padding: 1.7em 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.card .card-content p {
+  letter-spacing: 1px;
+}
+
+.copy {
+  font-size: 1.1em;
+  padding: 0.4em 0.5em;
+  text-align: center;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #d0d3db;
+  opacity: 0.75;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.light {
+  color: #fafafa;
+}
+
+.dark {
+  color: #21222e;
+}
+
+.popup {
+  border-radius: 0.2rem;
+  width: auto;
+  gap: 0 2.5em;
+  height: auto;
+  padding: 0 2.5em;
+  font-size: 1em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  letter-spacing: 1px;
+}
+
+.popup span {
+  font-size: 1.5em;
+  color: #21222e;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sucess {
+  background-color: #cbf0d3;
+  border: 1px solid #9ee0ad;
+  color: #155724;
+}
+
+.danger {
+  background-color: #f3d7da;
+  border: 1px solid #eea8af;
+  color: #721C24;
+}
+/*# sourceMappingURL=style.css.map */
